@@ -129,10 +129,10 @@
 .typing-dot {
   animation: typing-dot 1.2s ease-in-out infinite;
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  background: #aaa;
+  background: #b0b0b0;
 }
 .typing-dot:nth-child(2) {
   animation-delay: 0.15s;
@@ -143,17 +143,17 @@
 
 .msg-out {
   border-radius: 16px 16px 4px 16px;
-  background: var(--msg-out-bg);
+  background: #edfdd3;
 }
 .msg-in {
   border-radius: 16px 16px 16px 4px;
   background: #ffffff;
-  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 .active-row {
-  background: var(--accent-light);
+  background: #e8f4fd !important;
 }
 .hover-row:hover {
-  background: var(--bg-secondary);
+  background: #f9f9f9;
   cursor: pointer;
 }
